@@ -14,5 +14,6 @@ import lombok.Data;
 public class user {
     private String userName;
     private Integer age;
+    private String address;
 }
 
