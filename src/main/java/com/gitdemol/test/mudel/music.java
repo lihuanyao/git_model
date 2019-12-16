@@ -2,6 +2,8 @@ package com.gitdemol.test.mudel;
 
 import lombok.Data;
 
+import java.util.Date;
+
 /**
  * 描述: 【】
  *
@@ -14,4 +16,5 @@ import lombok.Data;
 public class music {
     private String name;
     private Integer size;
+    private Date times;
 }
