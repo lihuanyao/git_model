@@ -12,6 +12,7 @@ import lombok.Data;
  */
 @Data
 public class user {
+    private Integer sid;
     private String userName;
     private Integer age;
     private String address;
